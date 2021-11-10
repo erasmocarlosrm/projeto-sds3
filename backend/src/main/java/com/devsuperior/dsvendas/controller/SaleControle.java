@@ -23,6 +23,7 @@ public class SaleControle {
 		Page<SaleDTO> list = service.listSellar(pageable);
 		return ResponseEntity.ok(list);
 		
+		
 	}
 	
 }
